@@ -1,0 +1,41 @@
+name: sgmk_test_task
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.0.1
+  hive_flutter: ^1.1.0
+  equatable: ^2.0.3
+  mocktail: ^0.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  build_runner: ^2.1.8
+  hive_generator: ^1.1.2
+  bloc_test: ^9.0.3
+  mocktail: ^0.3.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/Rectangle.png
+    - assets/icons/
+    - assets/pizza/
+
+fonts:
+  - family: Source Sans Pro
+    fonts:
+      - asset: fonts/SourceSansPro-SemiBold.ttf
